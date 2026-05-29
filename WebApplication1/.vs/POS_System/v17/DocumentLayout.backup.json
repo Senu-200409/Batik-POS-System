@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|c:\\users\\senul\\desktop\\office assignment\\batik pos system\\webapplication1\\webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|c:\\users\\senul\\desktop\\office assignment\\batik pos system\\webapplication1\\webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\static\\loghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\static\\loghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\businesslayer\\authkeygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\businesslayer\\authkeygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\models\\userauthkeymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\userauthkeymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\interfaces\\ibillitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\interfaces\\ibillitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\models\\requestapimodels\\billitemsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\billitemsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\dataaccess\\dabillitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\dataaccess\\dabillitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\controllers\\billitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\controllers\\billitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\models\\billitemsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\billitemsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\dataaccess\\dabills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\dataaccess\\dabills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\interfaces\\ibills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\interfaces\\ibills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\webapplication1\\models\\requestapimodels\\billsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\billsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwNMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:28:37.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogHandler.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Static\\LogHandler.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Static\\LogHandler.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Static\\LogHandler.cs",
+              "RelativeToolTip": "WebApplication1\\Static\\LogHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T06:56:24.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
+              "RelativeToolTip": "WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T06:56:16.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAuthKeyModel.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Models\\UserAuthKeyModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\UserAuthKeyModel.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Models\\UserAuthKeyModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\UserAuthKeyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T04:30:35.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T04:30:08.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthKeyGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\BusinessLayer\\AuthKeyGenerator.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\BusinessLayer\\AuthKeyGenerator.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\BusinessLayer\\AuthKeyGenerator.cs",
+              "RelativeToolTip": "WebApplication1\\BusinessLayer\\AuthKeyGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T04:28:17.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BillItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Controllers\\BillItemsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BillItemsController.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Controllers\\BillItemsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\BillItemsController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA0wDwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:51:36.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DABillItems.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\DataAccess\\DABillItems.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DABillItems.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\DataAccess\\DABillItems.cs",
+              "RelativeToolTip": "WebApplication1\\DataAccess\\DABillItems.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAIwI8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:46:35.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBillItems.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Interfaces\\IBillItems.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IBillItems.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Interfaces\\IBillItems.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IBillItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:40:54.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BillItemsModel.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Models\\BillItemsModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\BillItemsModel.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Models\\BillItemsModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\BillItemsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:37:47.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DABills.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\DataAccess\\DABills.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DABills.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\DataAccess\\DABills.cs",
+              "RelativeToolTip": "WebApplication1\\DataAccess\\DABills.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAqwKwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:26:44.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Controllers\\BillsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BillsController.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Controllers\\BillsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\BillsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:18:55.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBills.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Interfaces\\IBills.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IBills.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Interfaces\\IBills.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IBills.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:17:34.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BillItemsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Models\\RequestApiModels\\BillItemsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\BillItemsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Models\\RequestApiModels\\BillItemsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\BillItemsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:17:09.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BillsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Models\\RequestApiModels\\BillsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\BillsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\Batik POS System\\WebApplication1\\WebApplication1\\Models\\RequestApiModels\\BillsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\BillsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:16:25.758Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

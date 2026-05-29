@@ -1,0 +1,5 @@
+01/01/0001 00:00:00 ~ GetAllBusDetails ~ Procedure or function BusManagement has too many arguments specified.;
+01/01/0001 00:00:00 ~ GetAllBusDetails ~ Procedure or function BusManagement has too many arguments specified.;
+01/01/0001 00:00:00 ~ GetAllUsers ~ Cannot insert the value NULL into column 'pud_username', table 'pos_system_db.dbo.ps_user_details'; column does not allow nulls. INSERT fails.;
+01/01/0001 00:00:00 ~ GetAllUsers ~ Could not find stored procedure 'PSUsers'.;
+01/01/0001 00:00:00 ~ GetAllUsers ~ Could not find stored procedure 'PSUsers'.;
