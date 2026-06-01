@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,8 +30,7 @@
               "RelativeToolTip": "WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:59:37.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T04:59:37.965Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAmwD4BAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAuwA4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T04:57:56.289Z",
               "EditorCaption": ""

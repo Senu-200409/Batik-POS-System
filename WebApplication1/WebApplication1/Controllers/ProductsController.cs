@@ -100,7 +100,7 @@ namespace POS_System.Controllers
                     }
 
                     string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
-                    //   string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
+                 //   string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
 
                     if (!Directory.Exists(folderPath))
                     {
@@ -157,7 +157,7 @@ namespace POS_System.Controllers
                     }
 
                     string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
-                    //  string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
+                  //  string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
 
                     if (!Directory.Exists(folderPath))
                     {
