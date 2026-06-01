@@ -99,8 +99,8 @@ namespace POS_System.Controllers
                         }, JsonRequestBehavior.AllowGet);
                     }
 
-                 //   string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
-                    string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
+                    string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
+                    //   string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
 
                     if (!Directory.Exists(folderPath))
                     {
@@ -156,8 +156,8 @@ namespace POS_System.Controllers
                         }, JsonRequestBehavior.AllowGet);
                     }
 
-                  //  string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
-                    string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
+                    string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
+                    //  string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
 
                     if (!Directory.Exists(folderPath))
                     {
@@ -198,29 +198,80 @@ namespace POS_System.Controllers
         // =========================
         // PRODUCT IMAGE PREVIEW
         // =========================
+        //[HttpGet]
+        //public ActionResult ProductPhotoPreview(string imageName)
+        //{
+        //    try
+        //    {
+        //        if (string.IsNullOrEmpty(imageName))
+        //        {
+        //            return HttpNotFound("Image name is required");
+        //        }
+
+        //        string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
+        //     //   string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
+
+        //        if (!Directory.Exists(folderPath))
+        //        {
+        //            return HttpNotFound("Image folder not found");
+        //        }
+
+        //        string filePath = Path.Combine(folderPath, imageName);
+
+        //        if (!System.IO.File.Exists(filePath))
+        //        {
+        //            return HttpNotFound("Image not found");
+        //        }
+
+        //        string extension = Path.GetExtension(filePath).ToLower();
+
+        //        string mimeType = GetMimeType(extension);
+
+        //        byte[] imageBytes = System.IO.File.ReadAllBytes(filePath);
+
+        //        return File(imageBytes, mimeType);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return HttpNotFound(ex.Message);
+        //    }
+        //}
         [HttpGet]
-        public ActionResult ProductPhotoPreview(string imageName)
+        public ActionResult ProductPhotoPreview(string ProductId)
         {
             try
             {
-                if (string.IsNullOrEmpty(imageName))
+                var requestAPI = new ProductsRequestApi
                 {
-                    return HttpNotFound("Image name is required");
+                    ProductId = ProductId
+                };
+
+                var result = _products.GetProductsByProductId(requestAPI);
+
+                if (result.StatusCode != 200 || result.ResultSet == null)
+                {
+                    return HttpNotFound("Product not found");
                 }
 
-             //   string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
-                string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
+                ProductsModel product = result.ResultSet as ProductsModel;
+
+                if (product == null || string.IsNullOrEmpty(product.ProductImage))
+                {
+                    return HttpNotFound("Image not found");
+                }
+
+                string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
 
                 if (!Directory.Exists(folderPath))
                 {
                     return HttpNotFound("Image folder not found");
                 }
 
-                string filePath = Path.Combine(folderPath, imageName);
+                string filePath = Path.Combine(folderPath, product.ProductImage);
 
                 if (!System.IO.File.Exists(filePath))
                 {
-                    return HttpNotFound("Image not found");
+                    return HttpNotFound("Image file not found");
                 }
 
                 string extension = Path.GetExtension(filePath).ToLower();

@@ -20,17 +20,17 @@ namespace POS_System.Database_Layer
             //  "Password=admin@123; MultipleActiveResultSets=true;Max Pool Size=600;");
 
 
-            //_connectionString = string.Format("Data Source=SENU_RY; " +
-            //  "Initial Catalog=pos_system_db;" +
-            //  "Integrated Security=True; " +
-            //  "MultipleActiveResultSets=true;" +
-            //  "Max Pool Size=600;");
+            _connectionString = string.Format("Data Source=SENU_RY; " +
+              "Initial Catalog=pos_system_db;" +
+              "Integrated Security=True; " +
+              "MultipleActiveResultSets=true;" +
+              "Max Pool Size=600;");
 
-             _connectionString = "Data Source=ALL-SER-LAP01\\DTSSQLSERVER; " +
-            "Initial Catalog=TEST_pos_db; " +
-            "User id=sa; " +
-            "Password=DSadmin@123; " +
-            "MultipleActiveResultSets=true;";
+            //_connectionString = "Data Source=ALL-SER-LAP01\\DTSSQLSERVER; " +
+            //"Initial Catalog=TEST_pos_db; " +
+            //"User id=sa; " +
+            //"Password=DSadmin@123; " +
+            //"MultipleActiveResultSets=true;";
 
 
 
