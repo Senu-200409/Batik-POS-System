@@ -138,6 +138,7 @@ namespace POS_System.Controllers
 
             try
             {
+                // string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
                 string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
 
                 if (!Directory.Exists(folderPath))
@@ -261,8 +262,8 @@ namespace POS_System.Controllers
 
                 if (files != null && files.Length > 0)
                 {
+                    //  string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
                     string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
-
                     if (!Directory.Exists(folderPath))
                         Directory.CreateDirectory(folderPath);
 
@@ -386,6 +387,7 @@ namespace POS_System.Controllers
                     return HttpNotFound("Image not found");
                 }
 
+                //  string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
                 string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
 
                 if (!Directory.Exists(folderPath))
