@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "D:\\Batik-POS-System\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\models\\billsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\models\\billsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\billsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\dataaccess\\dabills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\dataaccess\\dabills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\dataaccess\\dabills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\models\\requestapimodels\\billsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\models\\requestapimodels\\billsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\billsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\dataaccess\\daproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\dataaccess\\daproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\dataaccess\\daproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\dataaccess\\dauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\dataaccess\\dauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\dataaccess\\dauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\models\\requestapimodels\\productsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\models\\requestapimodels\\productsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\productsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|d:\\batik-pos-system\\webapplication1\\webapplication1\\models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|solutionrelative:webapplication1\\models\\productsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\POS_System.csproj|D:\\Batik-POS-System\\WebApplication1\\webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DABills.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\DataAccess\\DABills.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DABills.cs",
@@ -66,12 +66,11 @@
               "RelativeToolTip": "WebApplication1\\DataAccess\\DABills.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAgwLAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:45:25.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:45:25.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BillsRequestApi.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Models\\RequestApiModels\\BillsRequestApi.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\BillsRequestApi.cs",
@@ -79,12 +78,11 @@
               "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\BillsRequestApi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:44:53.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:44:53.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BillsModel.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Models\\BillsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\BillsModel.cs",
@@ -92,12 +90,11 @@
               "RelativeToolTip": "WebApplication1\\Models\\BillsModel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAIwAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:43:47.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:43:47.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DAUser.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\DataAccess\\DAUser.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DAUser.cs",
@@ -105,12 +102,11 @@
               "RelativeToolTip": "WebApplication1\\DataAccess\\DAUser.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAUwMIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:42:37.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:42:37.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
@@ -118,25 +114,24 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAIwGwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:41:07.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:41:07.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "IUser.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Interfaces\\IUser.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IUser.cs",
               "ToolTip": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Interfaces\\IUser.cs",
               "RelativeToolTip": "WebApplication1\\Interfaces\\IUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T18:38:05.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DAProducts.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\DataAccess\\DAProducts.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DAProducts.cs",
@@ -144,12 +139,11 @@
               "RelativeToolTip": "WebApplication1\\DataAccess\\DAProducts.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAswLAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:28:49.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:28:49.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProductsRequestApi.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Models\\RequestApiModels\\ProductsRequestApi.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\ProductsRequestApi.cs",
@@ -157,18 +151,17 @@
               "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\ProductsRequestApi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:28:31.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:28:31.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "ProductsModel.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Models\\ProductsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\ProductsModel.cs",
               "ToolTip": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Models\\ProductsModel.cs",
               "RelativeToolTip": "WebApplication1\\Models\\ProductsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T18:27:03.404Z",
               "EditorCaption": ""
@@ -183,18 +176,17 @@
               "RelativeToolTip": "WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:59:37.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T04:59:37.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\Batik-POS-System\\WebApplication1\\WebApplication1\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABwBAAAAAAAAAAAuwDQBAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACMBAAAAAAAAAADwvzEBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T04:57:56.289Z",
               "EditorCaption": ""

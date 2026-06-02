@@ -76,46 +76,101 @@ namespace POS_System.Controllers
         // =========================
         // ADD PRODUCT
         // =========================
+        //[HttpPost]
+        //public ActionResult AddProductsDetails(ProductsRequestApi requestAPI, HttpPostedFileBase file)
+        //{
+        //    Response res;
+
+        //    try
+        //    {
+        //        // Upload Image
+        //        if (file != null && file.ContentLength > 0)
+        //        {
+        //            string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+
+        //            string extension = Path.GetExtension(file.FileName).ToLower();
+
+        //            if (!allowedExtensions.Contains(extension))
+        //            {
+        //                return Json(new
+        //                {
+        //                    StatusCode = 400,
+        //                    Result = "Invalid image type"
+        //                }, JsonRequestBehavior.AllowGet);
+        //            }
+
+        //            string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
+        //         //   string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
+
+        //            if (!Directory.Exists(folderPath))
+        //            {
+        //                Directory.CreateDirectory(folderPath);
+        //            }
+
+        //            //string fileName = Guid.NewGuid().ToString() + extension;
+        //            string fileName = Guid.NewGuid().ToString() + extension;
+
+        //            string filePath = Path.Combine(folderPath, fileName);
+
+        //            file.SaveAs(filePath);
+
+        //            requestAPI.ProductImage = fileName;
+        //        }
+
+        //        res = _products.AddProductsDetails(requestAPI);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        res = new Response
+        //        {
+        //            StatusCode = 500,
+        //            Result = ex.Message
+        //        };
+        //    }
+
+        //    return Json(res, JsonRequestBehavior.AllowGet);
+        //}
+
         [HttpPost]
-        public ActionResult AddProductsDetails(ProductsRequestApi requestAPI, HttpPostedFileBase file)
+        public ActionResult AddProductsDetails(ProductsRequestApi requestAPI, HttpPostedFileBase[] files)
         {
             Response res;
 
             try
             {
-                // Upload Image
-                if (file != null && file.ContentLength > 0)
+                string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
+
+                if (!Directory.Exists(folderPath))
+                    Directory.CreateDirectory(folderPath);
+
+                List<string> imageNames = new List<string>();
+
+                if (files != null)
                 {
-                    string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
-
-                    string extension = Path.GetExtension(file.FileName).ToLower();
-
-                    if (!allowedExtensions.Contains(extension))
+                    foreach (var file in files)
                     {
-                        return Json(new
-                        {
-                            StatusCode = 400,
-                            Result = "Invalid image type"
-                        }, JsonRequestBehavior.AllowGet);
+                        if (file == null || file.ContentLength == 0)
+                            continue;
+
+                        string ext = Path.GetExtension(file.FileName).ToLower();
+
+                        string[] allowed = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+
+                        if (!allowed.Contains(ext))
+                            continue;
+
+                        string fileName = Guid.NewGuid().ToString() + ext;
+                        string path = Path.Combine(folderPath, fileName);
+
+                        file.SaveAs(path);
+
+                        imageNames.Add(fileName);
                     }
-
-                    string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
-                 //   string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
-
-                    if (!Directory.Exists(folderPath))
-                    {
-                        Directory.CreateDirectory(folderPath);
-                    }
-
-                    //string fileName = Guid.NewGuid().ToString() + extension;
-                    string fileName = Guid.NewGuid().ToString() + extension;
-
-                    string filePath = Path.Combine(folderPath, fileName);
-
-                    file.SaveAs(filePath);
-
-                    requestAPI.ProductImage = fileName;
                 }
+
+                // 🔥 IMPORTANT FIX (NEVER NULL)
+                requestAPI.ProductImage =
+                    imageNames.Count > 0 ? string.Join(",", imageNames) : "";
 
                 res = _products.AddProductsDetails(requestAPI);
             }
@@ -134,51 +189,121 @@ namespace POS_System.Controllers
         // =========================
         // UPDATE PRODUCT
         // =========================
+        //[HttpPost]
+        //public ActionResult PutProductsDetails(ProductsRequestApi requestAPI, HttpPostedFileBase file)
+        //{
+        //    Response res;
+
+        //    try
+        //    {
+        //        if (file != null && file.ContentLength > 0)
+        //        {
+        //            string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+
+        //            string extension = Path.GetExtension(file.FileName).ToLower();
+
+        //            if (!allowedExtensions.Contains(extension))
+        //            {
+        //                return Json(new
+        //                {
+        //                    StatusCode = 400,
+        //                    Result = "Invalid image type"
+        //                }, JsonRequestBehavior.AllowGet);
+        //            }
+
+        //            string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
+        //          //  string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
+
+        //            if (!Directory.Exists(folderPath))
+        //            {
+        //                Directory.CreateDirectory(folderPath);
+        //            }
+
+        //            // Delete old image
+        //            var oldFiles = Directory.GetFiles(folderPath, requestAPI.ProductId + ".*");
+
+        //            foreach (var old in oldFiles)
+        //            {
+        //                System.IO.File.Delete(old);
+        //            }
+
+        //            string fileName = requestAPI.ProductId + extension;
+
+        //            string filePath = Path.Combine(folderPath, fileName);
+
+        //            file.SaveAs(filePath);
+
+        //            requestAPI.ProductImage = fileName;
+        //        }
+
+        //        res = _products.PutProductsDetails(requestAPI);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        res = new Response
+        //        {
+        //            StatusCode = 500,
+        //            Result = ex.Message
+        //        };
+        //    }
+
+        //    return Json(res, JsonRequestBehavior.AllowGet);
+        //}
+
         [HttpPost]
-        public ActionResult PutProductsDetails(ProductsRequestApi requestAPI, HttpPostedFileBase file)
+        public ActionResult PutProductsDetails(ProductsRequestApi requestAPI, HttpPostedFileBase[] files)
         {
             Response res;
 
             try
             {
-                if (file != null && file.ContentLength > 0)
+                List<string> imageNames = new List<string>();
+
+                if (files != null && files.Length > 0)
                 {
-                    string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
-
-                    string extension = Path.GetExtension(file.FileName).ToLower();
-
-                    if (!allowedExtensions.Contains(extension))
-                    {
-                        return Json(new
-                        {
-                            StatusCode = 400,
-                            Result = "Invalid image type"
-                        }, JsonRequestBehavior.AllowGet);
-                    }
-
                     string folderPath = @"C:\Users\senul\Desktop\Office Assignment\Batik POS System\Image";
-                  //  string folderPath = @"C:\inetpub\wwwroot\testRccBackend\Image\Image";
 
                     if (!Directory.Exists(folderPath))
-                    {
                         Directory.CreateDirectory(folderPath);
-                    }
 
-                    // Delete old image
-                    var oldFiles = Directory.GetFiles(folderPath, requestAPI.ProductId + ".*");
-
-                    foreach (var old in oldFiles)
+                    foreach (var file in files)
                     {
-                        System.IO.File.Delete(old);
+                        if (file == null || file.ContentLength == 0)
+                            continue;
+
+                        string ext = Path.GetExtension(file.FileName).ToLower();
+
+                        string[] allowed = { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+
+                        if (!allowed.Contains(ext))
+                            continue;
+
+                        string fileName = Guid.NewGuid().ToString() + ext;
+                        string path = Path.Combine(folderPath, fileName);
+
+                        file.SaveAs(path);
+
+                        imageNames.Add(fileName);
                     }
 
-                    string fileName = requestAPI.ProductId + extension;
+                    if (imageNames.Count > 0)
+                    {
+                        requestAPI.ProductImage = string.Join(",", imageNames);
+                    }
+                }
 
-                    string filePath = Path.Combine(folderPath, fileName);
+                // 🔥 CRITICAL FIX: DON'T SEND NULL IMAGE
+                // keep old image if no new upload
 
-                    file.SaveAs(filePath);
+                if (string.IsNullOrEmpty(requestAPI.ProductImage))
+                {
+                    // fetch existing image from DB
+                    var existing = _products.GetProductsByProductId(requestAPI);
 
-                    requestAPI.ProductImage = fileName;
+                    if (existing?.ResultSet is ProductsModel p)
+                    {
+                        requestAPI.ProductImage = p.ProductImage;
+                    }
                 }
 
                 res = _products.PutProductsDetails(requestAPI);
@@ -194,6 +319,7 @@ namespace POS_System.Controllers
 
             return Json(res, JsonRequestBehavior.AllowGet);
         }
+
 
         // =========================
         // PRODUCT IMAGE PREVIEW
