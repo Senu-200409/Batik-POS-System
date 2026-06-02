@@ -13,6 +13,7 @@ namespace POS_System.Models
         public string ProductName { get; set; }
         public string CategoryId { get; set; }
         public string SubCategoryId { get; set; }
+        public string UnitType { get; set; }
         public string Price { get; set; }
         public string ProductImage { get; set; }
         public string IsActive { get; set; }

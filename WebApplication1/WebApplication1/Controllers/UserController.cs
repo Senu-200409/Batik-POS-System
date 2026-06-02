@@ -100,5 +100,12 @@ namespace POS_System.Controllers
             var result = _user.PutUserDetails(requestAPI);
             return Json(result, JsonRequestBehavior.AllowGet);
         }
+
+        [HttpGet]
+        public ActionResult GetUsersByUserId(UserRequestApi requestAPI)
+        {
+            var result = _user.GetUsersByUserId(requestAPI);
+            return Json(result, JsonRequestBehavior.AllowGet);
+        }
     }
 }

@@ -17,5 +17,6 @@ namespace POS_System.Interfaces
         Response LoginUser(UserRequestApi requestAPI);
 
         Response PutUserDetails(UserRequestApi requestAPI);
+        Response GetUsersByUserId(UserRequestApi requestAPI);
     }
 }

@@ -152,5 +152,46 @@ namespace POS_System.DataAccess
 
             return result;
         }
+
+        public Response GetUsersByUserId(UserRequestApi requestAPI)
+        {
+            Response result = new Response();
+
+            requestAPI.ActionType = "5"; // GET BY ID
+
+            using (var db = new DBconnect())
+            {
+                ProcedureDBModel res = db.ProcedureRead(requestAPI, ProcedureName);
+
+                if (res.ResultStatusCode == "1" &&
+                    res.ResultDataTable != null &&
+                    res.ResultDataTable.Rows.Count > 0)
+                {
+                    DataRow row = res.ResultDataTable.Rows[0];
+
+                    UserModel user = new UserModel
+                    {
+                        UserId = row["pud_user_id"].ToString(),
+                        UserName = row["pud_username"].ToString(),
+                        RoleName = row["pud_role_name"].ToString(),
+                        IsActive = row["pud_is_active"].ToString(),
+                        CreateDate = row["pud_create_date"].ToString(),
+                        CreatedBy = row["pud_created_by"].ToString(),
+                        UpdatedDate = row["pud_updated_date"].ToString(),
+                        UpdatedBy = row["pud_updated_by"].ToString()
+                    };
+
+                    result.StatusCode = 200;
+                    result.ResultSet = user;
+                }
+                else
+                {
+                    result.StatusCode = 404;
+                    result.Result = "User not found!";
+                }
+            }
+
+            return result;
+        }
     }
 }

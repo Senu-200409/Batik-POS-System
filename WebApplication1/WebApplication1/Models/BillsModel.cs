@@ -14,6 +14,8 @@ namespace POS_System.Models
         public string TotalAmount { get; set; }
         public string DiscountAmount { get; set; }
         public string NetAmount { get; set; }
+        public string PaidAmount { get; set; }     
+        public string ChangeAmount { get; set; }
         public string PaymentType { get; set; }
         public string CreateDate { get; set; }
         public string CreatedBy { get; set; }
